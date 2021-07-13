@@ -1,0 +1,67 @@
+html,body{
+    margin: 0;
+    padding: 0
+}
+
+
+main{
+
+}
+
+header{
+    background-color:rgb(63, 0, 211);
+    height: 580px;
+}
+
+header nav{
+    height: 60px;
+    background-color: deeppink;
+}
+
+header .container{
+    display: flex;
+}
+
+header .header-left{
+    width: 556px;
+    height: 438px;
+    padding: 90px 120px;
+    font-size: 30px;
+    color: white;
+   
+}
+
+.header-right {
+    width: 556px;
+    height: 438px;
+    padding:70px 150px ;
+   
+}
+
+
+.header-right img{
+    width: 100%;
+}
+
+
+
+/* css for players */
+
+.players-containers{
+    margin: 70px 210px;
+
+}
+.players{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.player{
+    width: 300px;
+    height: 426px;
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 30px;
+}
+.player img{
+    width: 100%;
+}
