@@ -56,6 +56,10 @@ header .header-left{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 27px;
+    grid-row-gap: 30px;
+  
+    justify-content: center;
+    align-content: center;
    
     
 }
@@ -63,10 +67,11 @@ header .header-left{
     width: 300px;
     height: 426px;
     box-shadow: 10px 10px 10px gray;
-    margin: 10px;
     padding: 20px;
+   
     border: 1px solid gray;
     border-radius: 10px;
+    overflow: hidden;
     
 
 }
