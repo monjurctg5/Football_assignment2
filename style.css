@@ -86,6 +86,8 @@ button:hover {
 }
 .players p{
     margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 .players{
 
@@ -95,13 +97,12 @@ button:hover {
     grid-row-gap: 30px;
 }
 .player{
-    width: 300px;
-    height: 426px;
+    width: 350px;
+    height: 500px;
     box-shadow: 10px 10px 10px gray;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid gray;
     border-radius: 10px;
-    overflow: hidden;
     
 
 }
@@ -125,6 +126,8 @@ button:hover {
 }
 .highlight-watch p{
     margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 .highlight-watch h1{
     font-size: 40px;
