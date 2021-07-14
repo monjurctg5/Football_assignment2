@@ -40,7 +40,7 @@ header .container{
 header .header-left,.header-right{
     width: 556px;
     height: 438px;
-    padding: 40px 70px;
+    padding: 40px 80px;
     font-size: 30px;
     color: white;
    
@@ -169,10 +169,7 @@ button:hover {
     box-shadow: 10px 10px 30px gray;
     border-radius: 40px;
     text-align: center;
-    margin-right: 40px;
-  
-    
-
+    margin-right: 40px;  
 }
 .A-image ,.B-image{
     display: flex;   
@@ -196,7 +193,6 @@ footer{
 .social-icon{
     margin: 0px 20px;
   ;
-
 }
 .fab{
   background-color:#969BAB;
@@ -246,13 +242,9 @@ footer p{
   }
   .group-A,.group-B{
 
-    margin: 50px 0px  50px;
-  
-    
+    margin: 50px 0px;
        width: 100%;
      
   }
-  
- 
  
 }
