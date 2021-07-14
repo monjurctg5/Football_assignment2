@@ -82,7 +82,7 @@ button:hover {
 /* css for players */
 
 .players-containers{
-    margin: 70px 110px;
+    margin: 70px 100px;
 
 }
 .players h3{
@@ -148,7 +148,8 @@ button:hover {
     width: 100%;
 }
 
-/* optional part */
+/* optional  and b0nus part */
+
 .teams{
     margin-bottom: 70px;
 }
@@ -180,6 +181,7 @@ button:hover {
     display: flex;   
     width: 10px;
     height: 100px;
+    padding:10px 30px;
   
   
 }
@@ -245,6 +247,7 @@ footer p{
        width: 100%;
      
   }
+  
  
 }
 
@@ -284,5 +287,8 @@ footer p{
     .highlight-watch{
         padding: 90px 60px;
     }
+
+
+    
 
 }
