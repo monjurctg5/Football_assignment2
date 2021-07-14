@@ -1,8 +1,8 @@
-html,body{
+*{
     margin: 0;
-    padding: 0
+    padding: 0;
+    text-decoration: none;
 }
-
 
 main{
 
@@ -42,6 +42,18 @@ header .header-left{
 .header-right img{
     width: 100%;
 }
+button{
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 55px;
+}
+ button a{
+    color: white;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
 
 
 
@@ -58,8 +70,7 @@ header .header-left{
     grid-column-gap: 27px;
     grid-row-gap: 30px;
   
-    justify-content: center;
-    align-content: center;
+    
    
     
 }
@@ -68,7 +79,6 @@ header .header-left{
     height: 426px;
     box-shadow: 10px 10px 10px gray;
     padding: 20px;
-   
     border: 1px solid gray;
     border-radius: 10px;
     overflow: hidden;
@@ -79,3 +89,48 @@ header .header-left{
     width: 100%;
     border-radius: 10px;
 }
+
+
+
+
+/* highlight css */
+
+.hignlights-container{
+    display: flex;
+   
+}
+
+.highlight-watch{
+    padding: 90px 120px;
+}
+.highlight-watch p{
+    margin-top: 20px;
+}
+.highlight-watch h1{
+    font-size: 40px;
+}
+
+
+.highlight-image{
+    padding:70px 80px ;
+
+}
+
+.highlight-image img{
+    width: 100%;
+}
+
+
+/* logo and footer */
+footer{
+    text-align: center;
+    padding: 50px 0px;
+}
+.social-icon{
+    margin-top: 10px 20px;
+}
+
+.copyright{
+    padding-top: 30px;
+}
+
