@@ -11,13 +11,25 @@ html,body{
 
 header{
     background-color:rgb(63, 0, 211);
-    height: 680px;
+    height: 550px;
+  
+  
 }
 
-header nav{
-    height: 50px;
+header h1{
+    transition:transform 3s;
+    animation: color-name 10s infinite;
+
+}
+@keyframes color-name {
+    from{color:#E02C6D}
+    to{color:aqua}
     
 }
+header:hover h1, header:hover img{
+    transform:rotate(360deg);
+}
+
 
 header .container{
     display: flex;
@@ -28,7 +40,7 @@ header .container{
 header .header-left,.header-right{
     width: 556px;
     height: 438px;
-    padding: 40px 50px;
+    padding: 40px 70px;
     font-size: 30px;
     color: white;
    
@@ -38,6 +50,8 @@ header .header-left,.header-right{
 
 .header-right img{
     width: 100%;
+    transition:transform 3s;
+
 }
 button{
     background-color: #E02C6D;
@@ -182,11 +196,14 @@ footer{
 
 }
 .fab{
-  background-color: gray;
+  background-color:#969BAB;
   border-radius: 10px;
-  font-size: 30px;
+  font-size: 18px;
 }
-
+footer p{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
 
 .copyright{
     padding-top: 30px;
