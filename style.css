@@ -66,16 +66,19 @@ button:hover {
     margin: 70px 110px;
 
 }
+.players h3{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.players p{
+    margin-top: 20px;
+}
 .players{
 
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 27px;
     grid-row-gap: 30px;
-  
-    
-   
-    
 }
 .player{
     width: 300px;
