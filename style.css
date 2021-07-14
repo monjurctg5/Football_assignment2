@@ -17,6 +17,8 @@ header{
 }
 
 header h1{
+    font-size: 64px;
+    line-height: 84px;
     transition:transform 3s;
     animation: color-name 10s infinite;
 
