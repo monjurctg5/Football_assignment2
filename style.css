@@ -144,21 +144,21 @@ button:hover {
 }
 .group-A,.group-B{
 
-    width: 500px;
-    height:300px;
+    width: 400px;
+    height:250px;
     box-shadow: 10px 10px 30px gray;
-    margin: 40px;
     border-radius: 40px;
     text-align: center;
+    margin-right: 40px;
   
     
 
 }
 .A-image ,.B-image{
     display: flex;   
-    margin: 40px;
     width: 10px;
     height: 100px;
+  
   
 }
 
@@ -189,7 +189,7 @@ footer{
     padding-top: 30px;
 }
 
-
+/* for mobail devices */
 
 @media screen and (max-width:668px) {
 
@@ -222,8 +222,11 @@ footer{
       display: block;
   }
   .group-A,.group-B{
-      margin: 0;
-      margin-bottom: 40px;
+
+    margin: 50px 0px  50px;
+  
+    
+       width: 100%;
      
   }
   
