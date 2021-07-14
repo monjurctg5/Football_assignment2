@@ -247,7 +247,10 @@ footer p{
        width: 100%;
      
   }
-  
+  .highlight-container{
+    flex-direction: column;
+   
+}
  
 }
 
